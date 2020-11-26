@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js"
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Vadim Bondarchuk <bondar0071312@gmail.com>",
   "license": "MIT",
@@ -14,6 +16,7 @@
     "config": "^3.3.2",
     "express": "^4.17.1",
     "express-validator": "^6.7.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.15"
   },
   "devDependencies": {
