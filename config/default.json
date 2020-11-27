@@ -1,5 +1,6 @@
 {
   "port": 5000,
   "jwtSecret": "vadim_bk MERN test",
-  "mongoUri": "mongodb+srv://vadim_bk:Qwert123@cluster0.orjeh.mongodb.net/app?retryWrites=true&w=majority"
+  "mongoUri": "mongodb+srv://vadim_bk:Qwert123@cluster0.orjeh.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
 }
