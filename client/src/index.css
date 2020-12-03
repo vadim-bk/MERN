@@ -17,3 +17,11 @@ input.yellow-input:focus {
 input.yellow-input:focus + label {
   color: #ffeb3b !important;
 }
+
+p {
+  font-size: 20px !important;
+}
+
+table {
+  font-size: 20px !important;
+}

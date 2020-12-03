@@ -23,7 +23,7 @@ const NavBar = () => {
             <NavLink to="/create">Create</NavLink>
           </li>
           <li>
-            <NavLink to="/create">Links</NavLink>
+            <NavLink to="/links">Links</NavLink>
           </li>
           <li>
             <NavLink to="/" onClick={handleLogOut}>
